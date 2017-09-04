@@ -1,0 +1,32 @@
+{
+  "name": "nucleo",
+  "version": "1.0.0",
+  "description": "Nucleo",
+  "main": "main.js",
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "IanPuchetti",
+  "license": "",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  },
+  "build": {
+    "appId": "prueba",
+    "mac": {
+      "category": "pruebas"
+    }
+  },
+  "dependencies": {
+    "socket.io": "^2.0.2"
+  }
+}
